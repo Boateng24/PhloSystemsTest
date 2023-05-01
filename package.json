@@ -1,0 +1,23 @@
+{
+  "name": "phlosystemstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "yarn run cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.11.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.4.0",
+    "cypress-social-logins": "^1.14.0",
+    "cypress-wait-until": "^1.7.2",
+    "google-auth-library": "^8.7.0",
+    "puppeteer": "^19.11.1",
+    "ws": "^8.13.0"
+  }
+}

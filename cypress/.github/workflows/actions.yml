@@ -1,0 +1,15 @@
+name: Cypress CI
+on: [push]
+jobs:
+  cypress_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: Install Dependencies
+        run: yarn Install
+      - name: Run Cypress Tests 
+        run: yarn cypress run
