@@ -10,6 +10,6 @@ jobs:
         with:
           node-version: '16'
       - name: Install Dependencies
-        run: yarn Install
+        run: yarn 
       - name: Run Cypress Tests 
         run: yarn cypress run
